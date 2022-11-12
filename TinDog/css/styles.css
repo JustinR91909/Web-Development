@@ -1,0 +1,176 @@
+/* general selectors at the top */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+/* Headings */
+.big-heading {
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+.red {
+  background-color: #FF4C68;
+  color: #FFF;
+}
+
+.white {
+  background-color: #fff;
+}
+
+/* Title */
+#title {
+  text-align: left;
+}
+
+.tindog {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navLinks li {
+  padding: 0 20px;
+  font-size: 1.2rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.titleImage {
+  padding-top: 4.5rem;
+}
+
+.downloads {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone {
+  transform: rotate(25deg);
+  /* width: 60%; */
+  position: absolute;
+  /* right: 30%; */
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Features */
+.icons {
+  color: #EF8172;
+  margin: 0 auto;
+  font-size: 4rem;
+  padding-bottom: 15px;
+}
+
+.icons:hover {
+  color: #FF4C68;
+}
+
+#features {
+  padding: 10%;
+  background-color: white;
+  position: relative;
+}
+
+#features h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+.tripleIcons {
+  padding: 5%;
+}
+
+/* Testimonial */
+#testimonials {
+  background-color: #EF8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+#press {
+  background-color: #EF8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Price */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-button {
+  width: 100%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 5% 10% 0 10%;
+}
+
+.cta-downloads {
+  margin: 5% 3% 5% 0;
+}
+
+/* Footer */
+#footer i {
+  margin: 5% 5px 0 5px;
+}
